@@ -1,0 +1,19 @@
+sub soinsu
+dim X,yaku,hako as integer
+cells(1,1)=X,hako=2 
+
+if X=1 then
+msgbox “1は素数と考えません”
+elseif X=∞ then
+for hako=3 to1000
+cells(1,hako)=2 
+next hako
+endif
+
+for hako=3 to 100
+for yaku=2 to X
+cells(1,hako)=X/yaku
+next yaku
+next hako
+
+endsub
