@@ -1,0 +1,38 @@
+nonpure
+
+sub nonpure ()
+dim a,b,c,d,e as integer
+a=11,b=30,c=INT(rnd*2 +1),d=2,e=2 
+if c=1 then
+for d =2 to 10
+for a =11 to 19
+for e =2 to 10
+cells(a,d)=cells(e,d)
+next e
+next a
+next d
+
+elseif then
+for d =2 to 10
+for b =30to 38
+for e =2 to 10
+cells(b,d)=cells(e,d)
+next e
+next b
+next d
+
+endif
+
+endsub
+
+sub hard ()
+cells(1,2)=1
+endsub
+
+sub midium ()
+cells(1,2)=2 
+endsub
+
+sub easy ()
+cells(1,2)=3 
+endsub
